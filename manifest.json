@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "PaSword",
+    "version": "1.1",
+    "description": "Password generator developed by Lighscent",
+    "author": "Lighscent",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/PaSword16.png",
+            "48": "icons/PaSword48.png",
+            "128": "icons/PaSword128.png"
+        }
+    }
+}

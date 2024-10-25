@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>PaSword</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>PaSword</h1>
+  <label for="length">Password length:</label>
+  <input type="number" id="length" name="length" min="6" max="50" value="12">
+  <br>
+  <label>
+    <input type="checkbox" id="uppercase" checked>
+    Uppercase letters
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" id="lowercase" checked>
+    Lowercase letters
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" id="numbers" checked>
+    Numbers
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" id="special" checked>
+    Special characters
+  </label>
+  <br>
+  <button id="generate">Generate password</button>
+  <p id="password"></p>
+  <div id="notification" class="hidden">Password copied!</div>
+  <script src="popup.js"></script>
+</body>
+</html>
